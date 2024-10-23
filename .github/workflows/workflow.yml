@@ -25,4 +25,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: Angular/dist/webapp # The folder the action should deploy.        
+          folder: /home/runner/work/Angular/Angular/Angular/dist/webapp # The folder the action should deploy.        

@@ -19,7 +19,7 @@ jobs:
 
       - name: Install and build
         working-directory: ./webapp
-        run: npm install && npm run gh-build && cp dist/webapp/index.html dist/webapp/404.html
+        run: npm install && npm run gh-build
       
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
